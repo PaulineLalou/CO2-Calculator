@@ -1,4 +1,4 @@
-## Distance Calculator CO2 Test
+## CO2 Calculator
 This is a simple web application that calculates the CO2 emissions based on the distance traveled and the transportation mode chosen. It allows users to input an origin and destination address, select a transportation mode (Car or Plane), and calculates the distance and CO2 emissions accordingly.
 
 ## Features
