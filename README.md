@@ -46,6 +46,7 @@ The application includes end-to-end tests using Cypress. To run the tests, use t
 npx cypress open 
 
 Cypress will open a test runner window and execute the tests.
+You can also select E2E testing and click on spec.
 
 ## Contributing
 Contributions to this project are welcome. If you find any bugs or want to suggest enhancements, please open an issue or submit a pull request.

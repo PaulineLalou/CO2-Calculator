@@ -93,7 +93,7 @@ const DistanceCalculator: React.FC = () => {
 
   useEffect(() => {
     const googleMapsScript = document.createElement("script");
-    googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&libraries=places`;
+    googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBMbZ0SqAwRYgYvgoe7SXUey9IPOkxx_tg&libraries=places`;
     googleMapsScript.async = true;
     googleMapsScript.defer = true;
     document.body.appendChild(googleMapsScript);
