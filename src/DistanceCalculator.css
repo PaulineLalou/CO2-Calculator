@@ -1,0 +1,97 @@
+.distance-calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.distance-calculator h2 {
+  margin-bottom: 20px;
+}
+
+.distance-input-form {
+  margin-bottom: 20px;
+}
+
+.distance-input-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.distance-input-form input,
+.distance-input-form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.distance-input-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.distance-input-form button:hover {
+  background-color: #45a049;
+}
+
+.co2-calculator {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.distance-in-km {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f5f5f5;
+}
+
+.suggestions li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.suggestions li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
